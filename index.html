@@ -4,14 +4,15 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+       
     <link rel="stylesheet" type="text/css" href="style.css">
         <title>Portfolio WireFrame</title>
     </head>
     <body>
         
         <nav class ="nav">
-            <ul>
+                <div class="hamburger">&#9776;</div>
+            <ul class="menu">
                 <li><a class="navbuttons" href="index.html">Home</a></li>
                 <li><a class="navbuttons" href="projects.html">Projects</a></li>
                 <li><a class="navbuttons" href="contact.html">Contact</a></li>
@@ -19,22 +20,32 @@
                         
         </nav>  
         <main> 
-            <header>
-                <h1>Hero</h1>
+            <header class="top">
+                   
+                  <h1>Headshot</h1>  
             </header> 
             
-            <section>
-                Section 1
+            <section  id="bio">
+                
+                <p>Bio</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, recusandae quia doloremque quam deleniti, pariatur consectetur doloribus inventore vitae laborum eum repudiandae unde odio maiores odit rem mollitia quibusdam sed!</p>
+                    
             </section>
         
             <section>
-                section 2
+                image
             </section>
                
         </main>
 
     
         <footer role="content-info">Footer</footer>
+
+         
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+	<script type="text/javascript" src="script.js"></script>
 
     </body>
     </html>

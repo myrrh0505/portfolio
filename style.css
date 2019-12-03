@@ -22,7 +22,7 @@ a.navbuttons{
 }
 
 nav {
-    background-color: #ccc;
+    background-color: #cccc;
 }
 
 nav ul{
@@ -34,7 +34,7 @@ nav ul{
   }
 
   body {
-    font-family: "Comic Sans MS",
+    font-family: "Sans Serif",
     sans-serif; 
     font-size: 20px;
     color: #444;
@@ -49,27 +49,45 @@ nav ul{
   section {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #bbb;
+    
   }
   
-  section:nth-child(even) {
-    background-color: #ddd;
-  }
+  
 
   footer {
     padding: 1% 0;
-    background-color: #aaa;
+    background-color: #cccc;
     
   }
 
 #footer1 {
-    position: absolute;
+    position: relative;
  bottom: 0;
  width: 100%;
 }
 
 #footer2{
-    position: absolute;
+    position: relative;
  bottom: 0;
  width: 100%;
+}
+
+
+  
+
+
+#bio {
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .hamburger {
+    display:none;
+  }
 }
