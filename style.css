@@ -46,6 +46,8 @@ nav ul{
   header {
     padding: 7% 0;
     display:flex;
+    position: relative;
+    top:50px;
     
 }
 
@@ -109,16 +111,22 @@ nav ul{
   }
 
   .headshot {
-    position:realtive;
-    top: px;
+    width:350px;
+    position: relative;
+    top:-20px;
+    
     
   }
 
   .text {
     position: relative;
     left: 99px;
-    top: 80px;
+    top: 50px;
     
+  }
+  
+  .bio {
+    text-align: left;
   }
 
 }
