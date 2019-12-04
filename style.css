@@ -40,11 +40,16 @@ nav ul{
     color: #444;
     text-align: center;
     line-height: 1.5;
+   
   }
 
   header {
-    padding: 12% 0;
-  }
+    padding: 7% 0;
+    display:flex;
+    
+}
+
+
 
   section {
     min-height: 200px;
@@ -73,17 +78,49 @@ nav ul{
 }
 
 
+
+.headshot {
+  width:500px;
+  position: relative;
+  left: 100px;
+  transform:rotate(90deg)
+  
+}
   
 
-
-#bio {
-    text-align: left;
+.text {
+  
+  position:relative;
+  left: 135px;
 }
 
 @media only screen and (max-width: 600px) {
   .menu {
     display: none;
   }
+
+  .top {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+    top: 50px;
+    left: -100px;
+  }
+
+  .headshot {
+    position:realtive;
+    top: px;
+    
+  }
+
+  .text {
+    position: relative;
+    left: 99px;
+    top: 80px;
+    
+  }
+
 }
 
 @media only screen and (min-width: 600px) {
