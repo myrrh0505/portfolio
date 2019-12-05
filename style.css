@@ -44,10 +44,11 @@ nav ul{
   }
 
   header {
-    padding: 7% 0;
+    padding: 2% 0;
     display:flex;
     position: relative;
     top:50px;
+    
     
 }
 
@@ -64,37 +65,111 @@ nav ul{
   footer {
     padding: 1% 0;
     background-color: #cccc;
-    
+    position: relative;
+    bottom: 0;
+    width: 100%;
   }
 
+  
+
 #footer1 {
-    position: relative;
- bottom: 0;
- width: 100%;
+  position: relative;
+  top: 150px;
+  width: 100%;
 }
 
-#footer2{
+#footer2 {
     position: relative;
- bottom: 0;
+ top: 150px;
  width: 100%;
 }
 
 
 
 .headshot {
-  width:500px;
+  width:33%;
   position: relative;
-  left: 100px;
+  left: -150px;
+  top: -20px;
   transform:rotate(90deg)
   
 }
   
-
-.text {
+.text{
   
-  position:relative;
-  left: 135px;
+  position: relative;
+  left:-340px;
+  
 }
+
+#world{
+  width:100%;
+}
+
+#writer{
+  width:100%;
+}
+
+#developer{
+  width:100%;
+}
+
+#marketing{
+  width:100%;
+}
+
+
+
+.bio2 {
+  display:flex;
+  position:relative;
+  left: 180px;
+}
+
+.monkey {
+  position:relative;
+  width:40%;
+  transform:rotate(90deg)
+}
+
+.text2{
+  position: relative;
+  left: 150px;
+}
+
+#interest{
+  width:100%;
+}
+
+#fermentation{
+  width:100%;
+}
+
+#cooking{
+  width:100%;
+}
+
+#basketball{
+  width:100%;
+}
+
+#gaming{
+  width:100%;
+}
+
+.project {
+  width:50%;
+}
+
+.bamboo{
+  position:relative;
+  width:27%;
+  transform:rotate(90deg)
+}
+
+
+
+
 
 @media only screen and (max-width: 600px) {
   .menu {
@@ -111,9 +186,10 @@ nav ul{
   }
 
   .headshot {
-    width:350px;
+    width:200px;
     position: relative;
-    top:-20px;
+    top:-30px;
+    left:99px;
     
     
   }
@@ -121,14 +197,72 @@ nav ul{
   .text {
     position: relative;
     left: 99px;
-    top: 50px;
+    top: -9px;
     
+  }
+
+  #world{
+    width:150px;
+  }
+  
+  #writer{
+    width:150px;
+  }
+  
+  #developer{
+    width:150px;
+  }
+  
+  #marketing{
+    width:150px;
   }
   
   .bio {
     text-align: left;
+    position:relative;
+    top:
   }
 
+  .bio2{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #interest{
+    width:150px;
+  }
+  
+  #fermentation{
+    width:150px;
+  }
+  
+  #cooking{
+    width:150px;
+  }
+  
+  #basketball{
+    width:150px;
+  }
+  
+  #gaming{
+    width:150px;
+  }
+
+  .text2{
+    position:relative;
+    left:-185px;
+    top:-45px;
+  }
+
+  .monkey{
+    position: relative;
+    left: -185px;
+  }
+
+  .hamburger:hover{
+    cursor:pointer;
+  }
 }
 
 @media only screen and (min-width: 600px) {
