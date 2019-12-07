@@ -2,6 +2,8 @@
     box-sizing: border-box;
   }
 
+ 
+
 a.navbuttons{
     text-align: center;
     height:30px;
@@ -70,7 +72,11 @@ nav ul{
     width: 100%;
   }
 
-  
+ #footer0 {
+  position: relative;
+  top: 150px;
+  width: 100%;
+ } 
 
 #footer1 {
   position: relative;
@@ -123,7 +129,7 @@ nav ul{
 .bio2 {
   display:flex;
   position:relative;
-  left: 180px;
+  
 }
 
 .monkey {
@@ -251,13 +257,13 @@ nav ul{
 
   .text2{
     position:relative;
-    left:-185px;
+    left:-1px;
     top:-45px;
   }
 
   .monkey{
     position: relative;
-    left: -185px;
+    left: -1px;
   }
 
   .hamburger:hover{
