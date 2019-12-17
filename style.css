@@ -12,7 +12,7 @@ a.navbuttons{
     line-height:30px;
     margin:0px;
     display:inline-block;
-    font-size:13px;
+    font-size:18px;
     color:black;
     text-decoration: none;
 }
@@ -33,6 +33,7 @@ nav ul{
     padding: 0;
     display: flex;
     justify-content: space-around;
+    
   }
 
   body {
@@ -195,14 +196,14 @@ nav ul{
     width:200px;
     position: relative;
     top:-30px;
-    left:99px;
+    left:-98px;
     
     
   }
 
   .text {
     position: relative;
-    left: 99px;
+    left: -98px;
     top: -9px;
     
   }
@@ -274,5 +275,14 @@ nav ul{
 @media only screen and (min-width: 600px) {
   .hamburger {
     display:none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top {
+    
+    position:relative;
+    top: 50px;
+    left: 100px;
   }
 }
